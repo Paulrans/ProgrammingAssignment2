@@ -11,8 +11,8 @@
 ## Set() is used to change the datamatrix in the cache and reset the inverse matrix to NULL. 
 ## In turn the new inverse needs to be calculated by the cacheSolve function.
 ## get() returns the datamatrix 
-## Setmat() recieves a the new inverse matrix values from cacheSolve().
-## Getmat() returns the inverse matrix when asked by cacheSolve().
+## setInverse() recieves a the new inverse matrix values from cacheSolve().
+## getInverse() returns the inverse matrix when asked by cacheSolve().
 ## The list command forms the names of the functions in the list. 
 ## This way they can be called from the list.
 
